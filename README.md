@@ -1,5 +1,5 @@
-# mbot-ros-firmware
-Firware to run on the RPi Pico for the MBot Differential Drive using ROS.
+# Mbot ROS Firmware
+Firware to run on the RPi Pico for the MBot Differential Drive using ROS. Used in the University of Michigan ROB 330 class of fall 2023.
 
 ## Installation
 
