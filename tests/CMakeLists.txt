@@ -106,6 +106,21 @@ pico_enable_stdio_usb(mbot_motor_test 1)
 pico_enable_stdio_uart(mbot_motor_test 0)
 pico_add_extra_outputs(mbot_motor_test)
 
+#TEST-DRIVE
+add_executable(mbot_test_drive
+  mbot_test_drive.c
+)
+target_link_libraries(mbot_test_drive
+  pico_stdlib
+  pico_multicore
+  hardware_pio
+  hardware_pwm
+  rclib
+)
+pico_enable_stdio_usb(mbot_test_drive 1)
+pico_enable_stdio_uart(mbot_test_drive 0)
+pico_add_extra_outputs(mbot_test_drive)
+
 #MOTOR-ANALYZE
 add_executable(mbot_motor_analyze
   mbot_motor_analyze.c

@@ -1,6 +1,6 @@
 roscomms/CMakeFiles/roscomms.dir/src/callbacks.c.obj: \
- /home/jetson/mbot_firmware_ros/roscomms/src/callbacks.c \
- /home/jetson/mbot_firmware_ros/roscomms/include/roscomms/ros_listener.h \
+ /home/jetson/mbot_firmware/roscomms/src/callbacks.c \
+ /home/jetson/mbot_firmware/roscomms/include/roscomms/ros_listener.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -174,44 +174,44 @@ roscomms/CMakeFiles/roscomms.dir/src/callbacks.c.obj: \
  /home/jetson/mbot_firmware_ros/libmicroros/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/rmw_microros/timing.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/rmw_microros/custom_transport.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_base/include/pico.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_base/include/pico/assert.h \
- /home/jetson/mbot_firmware_ros/build/generated/pico_base/pico/version.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/jetson/mbot_firmware_ros/build/generated/pico_base/pico/config_autogen.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/boards/include/boards/pico.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_base/include/pico/error.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/include/pico/time.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /home/jetson/mbot_firmware_ros/roscomms/include/roscomms/pico_uart_transport.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_base/include/pico.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /home/jetson/mbot_firmware/build/generated/pico_base/pico/version.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /home/jetson/mbot_firmware/build/generated/pico_base/pico/config_autogen.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/boards/include/boards/pico.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/jetson/mbot_firmware/roscomms/include/roscomms/pico_uart_transport.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/std_msgs/msg/int32.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/std_msgs/msg/detail/int32__struct.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/std_msgs/msg/detail/int32__functions.h \
@@ -252,5 +252,5 @@ roscomms/CMakeFiles/roscomms.dir/src/callbacks.c.obj: \
  /home/jetson/mbot_firmware_ros/libmicroros/include/geometry_msgs/msg/detail/twist__functions.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/geometry_msgs/msg/detail/twist__type_support.h \
- /home/jetson/mbot_firmware_ros/mbot/include/mbot/defs/mbot_params.h \
- /home/jetson/mbot_firmware_ros/roscomms/include/roscomms/callbacks.h
+ /home/jetson/mbot_firmware/mbot/include/mbot/defs/mbot_params.h \
+ /home/jetson/mbot_firmware/roscomms/include/roscomms/callbacks.h

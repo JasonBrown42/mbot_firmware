@@ -53,10 +53,10 @@ RM = /opt/cmake-3.27.0-linux-aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware_ros
+CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/mbot_firmware_ros/build
+CMAKE_BINARY_DIR = /home/jetson/mbot_firmware/build
 
 # Include any dependencies generated for this target.
 include rc/CMakeFiles/rclib.dir/depend.make
@@ -70,847 +70,847 @@ include rc/CMakeFiles/rclib.dir/progress.make
 include rc/CMakeFiles/rclib.dir/flags.make
 
 rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/algebra_common.c
+rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj: /home/jetson/mbot_firmware/rc/src/math/algebra_common.c
 rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj -MF CMakeFiles/rclib.dir/src/math/algebra_common.c.obj.d -o CMakeFiles/rclib.dir/src/math/algebra_common.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/algebra_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj -MF CMakeFiles/rclib.dir/src/math/algebra_common.c.obj.d -o CMakeFiles/rclib.dir/src/math/algebra_common.c.obj -c /home/jetson/mbot_firmware/rc/src/math/algebra_common.c
 
 rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/algebra_common.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/algebra_common.c > CMakeFiles/rclib.dir/src/math/algebra_common.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/algebra_common.c > CMakeFiles/rclib.dir/src/math/algebra_common.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/algebra_common.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/algebra_common.c -o CMakeFiles/rclib.dir/src/math/algebra_common.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/algebra_common.c -o CMakeFiles/rclib.dir/src/math/algebra_common.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/algebra.c
+rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj: /home/jetson/mbot_firmware/rc/src/math/algebra.c
 rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj -MF CMakeFiles/rclib.dir/src/math/algebra.c.obj.d -o CMakeFiles/rclib.dir/src/math/algebra.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/algebra.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj -MF CMakeFiles/rclib.dir/src/math/algebra.c.obj.d -o CMakeFiles/rclib.dir/src/math/algebra.c.obj -c /home/jetson/mbot_firmware/rc/src/math/algebra.c
 
 rc/CMakeFiles/rclib.dir/src/math/algebra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/algebra.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/algebra.c > CMakeFiles/rclib.dir/src/math/algebra.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/algebra.c > CMakeFiles/rclib.dir/src/math/algebra.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/algebra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/algebra.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/algebra.c -o CMakeFiles/rclib.dir/src/math/algebra.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/algebra.c -o CMakeFiles/rclib.dir/src/math/algebra.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/filter.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/filter.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/filter.c
+rc/CMakeFiles/rclib.dir/src/math/filter.c.obj: /home/jetson/mbot_firmware/rc/src/math/filter.c
 rc/CMakeFiles/rclib.dir/src/math/filter.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object rc/CMakeFiles/rclib.dir/src/math/filter.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/filter.c.obj -MF CMakeFiles/rclib.dir/src/math/filter.c.obj.d -o CMakeFiles/rclib.dir/src/math/filter.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object rc/CMakeFiles/rclib.dir/src/math/filter.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/filter.c.obj -MF CMakeFiles/rclib.dir/src/math/filter.c.obj.d -o CMakeFiles/rclib.dir/src/math/filter.c.obj -c /home/jetson/mbot_firmware/rc/src/math/filter.c
 
 rc/CMakeFiles/rclib.dir/src/math/filter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/filter.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/filter.c > CMakeFiles/rclib.dir/src/math/filter.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/filter.c > CMakeFiles/rclib.dir/src/math/filter.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/filter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/filter.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/filter.c -o CMakeFiles/rclib.dir/src/math/filter.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/filter.c -o CMakeFiles/rclib.dir/src/math/filter.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/kalman.c
+rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj: /home/jetson/mbot_firmware/rc/src/math/kalman.c
 rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj -MF CMakeFiles/rclib.dir/src/math/kalman.c.obj.d -o CMakeFiles/rclib.dir/src/math/kalman.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/kalman.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj -MF CMakeFiles/rclib.dir/src/math/kalman.c.obj.d -o CMakeFiles/rclib.dir/src/math/kalman.c.obj -c /home/jetson/mbot_firmware/rc/src/math/kalman.c
 
 rc/CMakeFiles/rclib.dir/src/math/kalman.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/kalman.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/kalman.c > CMakeFiles/rclib.dir/src/math/kalman.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/kalman.c > CMakeFiles/rclib.dir/src/math/kalman.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/kalman.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/kalman.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/kalman.c -o CMakeFiles/rclib.dir/src/math/kalman.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/kalman.c -o CMakeFiles/rclib.dir/src/math/kalman.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/matrix.c
+rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj: /home/jetson/mbot_firmware/rc/src/math/matrix.c
 rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj -MF CMakeFiles/rclib.dir/src/math/matrix.c.obj.d -o CMakeFiles/rclib.dir/src/math/matrix.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj -MF CMakeFiles/rclib.dir/src/math/matrix.c.obj.d -o CMakeFiles/rclib.dir/src/math/matrix.c.obj -c /home/jetson/mbot_firmware/rc/src/math/matrix.c
 
 rc/CMakeFiles/rclib.dir/src/math/matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/matrix.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/matrix.c > CMakeFiles/rclib.dir/src/math/matrix.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/matrix.c > CMakeFiles/rclib.dir/src/math/matrix.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/matrix.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/matrix.c -o CMakeFiles/rclib.dir/src/math/matrix.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/matrix.c -o CMakeFiles/rclib.dir/src/math/matrix.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/other.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/other.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/other.c
+rc/CMakeFiles/rclib.dir/src/math/other.c.obj: /home/jetson/mbot_firmware/rc/src/math/other.c
 rc/CMakeFiles/rclib.dir/src/math/other.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object rc/CMakeFiles/rclib.dir/src/math/other.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/other.c.obj -MF CMakeFiles/rclib.dir/src/math/other.c.obj.d -o CMakeFiles/rclib.dir/src/math/other.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/other.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object rc/CMakeFiles/rclib.dir/src/math/other.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/other.c.obj -MF CMakeFiles/rclib.dir/src/math/other.c.obj.d -o CMakeFiles/rclib.dir/src/math/other.c.obj -c /home/jetson/mbot_firmware/rc/src/math/other.c
 
 rc/CMakeFiles/rclib.dir/src/math/other.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/other.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/other.c > CMakeFiles/rclib.dir/src/math/other.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/other.c > CMakeFiles/rclib.dir/src/math/other.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/other.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/other.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/other.c -o CMakeFiles/rclib.dir/src/math/other.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/other.c -o CMakeFiles/rclib.dir/src/math/other.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/polynomial.c
+rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj: /home/jetson/mbot_firmware/rc/src/math/polynomial.c
 rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj -MF CMakeFiles/rclib.dir/src/math/polynomial.c.obj.d -o CMakeFiles/rclib.dir/src/math/polynomial.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/polynomial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj -MF CMakeFiles/rclib.dir/src/math/polynomial.c.obj.d -o CMakeFiles/rclib.dir/src/math/polynomial.c.obj -c /home/jetson/mbot_firmware/rc/src/math/polynomial.c
 
 rc/CMakeFiles/rclib.dir/src/math/polynomial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/polynomial.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/polynomial.c > CMakeFiles/rclib.dir/src/math/polynomial.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/polynomial.c > CMakeFiles/rclib.dir/src/math/polynomial.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/polynomial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/polynomial.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/polynomial.c -o CMakeFiles/rclib.dir/src/math/polynomial.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/polynomial.c -o CMakeFiles/rclib.dir/src/math/polynomial.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/quaternion.c
+rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj: /home/jetson/mbot_firmware/rc/src/math/quaternion.c
 rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj -MF CMakeFiles/rclib.dir/src/math/quaternion.c.obj.d -o CMakeFiles/rclib.dir/src/math/quaternion.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/quaternion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj -MF CMakeFiles/rclib.dir/src/math/quaternion.c.obj.d -o CMakeFiles/rclib.dir/src/math/quaternion.c.obj -c /home/jetson/mbot_firmware/rc/src/math/quaternion.c
 
 rc/CMakeFiles/rclib.dir/src/math/quaternion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/quaternion.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/quaternion.c > CMakeFiles/rclib.dir/src/math/quaternion.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/quaternion.c > CMakeFiles/rclib.dir/src/math/quaternion.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/quaternion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/quaternion.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/quaternion.c -o CMakeFiles/rclib.dir/src/math/quaternion.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/quaternion.c -o CMakeFiles/rclib.dir/src/math/quaternion.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/ring_buffer.c
+rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj: /home/jetson/mbot_firmware/rc/src/math/ring_buffer.c
 rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj -MF CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj.d -o CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/ring_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj -MF CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj.d -o CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj -c /home/jetson/mbot_firmware/rc/src/math/ring_buffer.c
 
 rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/ring_buffer.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/ring_buffer.c > CMakeFiles/rclib.dir/src/math/ring_buffer.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/ring_buffer.c > CMakeFiles/rclib.dir/src/math/ring_buffer.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/ring_buffer.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/ring_buffer.c -o CMakeFiles/rclib.dir/src/math/ring_buffer.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/ring_buffer.c -o CMakeFiles/rclib.dir/src/math/ring_buffer.c.s
 
 rc/CMakeFiles/rclib.dir/src/math/vector.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/math/vector.c.obj: /home/jetson/mbot_firmware_ros/rc/src/math/vector.c
+rc/CMakeFiles/rclib.dir/src/math/vector.c.obj: /home/jetson/mbot_firmware/rc/src/math/vector.c
 rc/CMakeFiles/rclib.dir/src/math/vector.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object rc/CMakeFiles/rclib.dir/src/math/vector.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/vector.c.obj -MF CMakeFiles/rclib.dir/src/math/vector.c.obj.d -o CMakeFiles/rclib.dir/src/math/vector.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/math/vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object rc/CMakeFiles/rclib.dir/src/math/vector.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/math/vector.c.obj -MF CMakeFiles/rclib.dir/src/math/vector.c.obj.d -o CMakeFiles/rclib.dir/src/math/vector.c.obj -c /home/jetson/mbot_firmware/rc/src/math/vector.c
 
 rc/CMakeFiles/rclib.dir/src/math/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/math/vector.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/math/vector.c > CMakeFiles/rclib.dir/src/math/vector.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/math/vector.c > CMakeFiles/rclib.dir/src/math/vector.c.i
 
 rc/CMakeFiles/rclib.dir/src/math/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/math/vector.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/math/vector.c -o CMakeFiles/rclib.dir/src/math/vector.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/math/vector.c -o CMakeFiles/rclib.dir/src/math/vector.c.s
 
 rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj: /home/jetson/mbot_firmware_ros/rc/src/mpu/mpu.c
+rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj: /home/jetson/mbot_firmware/rc/src/mpu/mpu.c
 rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj -MF CMakeFiles/rclib.dir/src/mpu/mpu.c.obj.d -o CMakeFiles/rclib.dir/src/mpu/mpu.c.obj -c /home/jetson/mbot_firmware_ros/rc/src/mpu/mpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj -MF CMakeFiles/rclib.dir/src/mpu/mpu.c.obj.d -o CMakeFiles/rclib.dir/src/mpu/mpu.c.obj -c /home/jetson/mbot_firmware/rc/src/mpu/mpu.c
 
 rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/src/mpu/mpu.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/rc/src/mpu/mpu.c > CMakeFiles/rclib.dir/src/mpu/mpu.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/rc/src/mpu/mpu.c > CMakeFiles/rclib.dir/src/mpu/mpu.c.i
 
 rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/src/mpu/mpu.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/rc/src/mpu/mpu.c -o CMakeFiles/rclib.dir/src/mpu/mpu.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/rc/src/mpu/mpu.c -o CMakeFiles/rclib.dir/src/mpu/mpu.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_platform/platform.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_platform/platform.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/sem.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/sem.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/sem.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/lock_core.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/lock_core.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/lock_core.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/time.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/time.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/time.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/time.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/time.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/timeout_helper.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/timeout_helper.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/timeout_helper.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/datetime.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/datetime.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/datetime.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/pheap.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/pheap.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/pheap.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/queue.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/queue.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/queue.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/mutex.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/mutex.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/mutex.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/critical_section.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/critical_section.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/critical_section.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_printf/printf.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_printf/printf.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_divider/divider.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_math.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_math.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_math.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_math.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: rc/CMakeFiles/rclib.dir/flags.make
-rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c
+rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: rc/CMakeFiles/rclib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	cd /home/jetson/mbot_firmware_ros/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	cd /home/jetson/mbot_firmware/build/rc && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 # Object files for target rclib
 rclib_OBJECTS = \
@@ -1042,19 +1042,19 @@ rc/librclib.a: rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_a
 rc/librclib.a: rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 rc/librclib.a: rc/CMakeFiles/rclib.dir/build.make
 rc/librclib.a: rc/CMakeFiles/rclib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX static library librclib.a"
-	cd /home/jetson/mbot_firmware_ros/build/rc && $(CMAKE_COMMAND) -P CMakeFiles/rclib.dir/cmake_clean_target.cmake
-	cd /home/jetson/mbot_firmware_ros/build/rc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rclib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX static library librclib.a"
+	cd /home/jetson/mbot_firmware/build/rc && $(CMAKE_COMMAND) -P CMakeFiles/rclib.dir/cmake_clean_target.cmake
+	cd /home/jetson/mbot_firmware/build/rc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rclib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 rc/CMakeFiles/rclib.dir/build: rc/librclib.a
 .PHONY : rc/CMakeFiles/rclib.dir/build
 
 rc/CMakeFiles/rclib.dir/clean:
-	cd /home/jetson/mbot_firmware_ros/build/rc && $(CMAKE_COMMAND) -P CMakeFiles/rclib.dir/cmake_clean.cmake
+	cd /home/jetson/mbot_firmware/build/rc && $(CMAKE_COMMAND) -P CMakeFiles/rclib.dir/cmake_clean.cmake
 .PHONY : rc/CMakeFiles/rclib.dir/clean
 
 rc/CMakeFiles/rclib.dir/depend:
-	cd /home/jetson/mbot_firmware_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/mbot_firmware_ros /home/jetson/mbot_firmware_ros/rc /home/jetson/mbot_firmware_ros/build /home/jetson/mbot_firmware_ros/build/rc /home/jetson/mbot_firmware_ros/build/rc/CMakeFiles/rclib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jetson/mbot_firmware/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/mbot_firmware /home/jetson/mbot_firmware/rc /home/jetson/mbot_firmware/build /home/jetson/mbot_firmware/build/rc /home/jetson/mbot_firmware/build/rc/CMakeFiles/rclib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : rc/CMakeFiles/rclib.dir/depend
 

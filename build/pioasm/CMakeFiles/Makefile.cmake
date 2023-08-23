@@ -9,7 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "CMakeFiles/3.27.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.0/CMakeSystem.cmake"
-  "/home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/CMakeLists.txt"
+  "/home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/CMakeLists.txt"
   "/opt/cmake-3.27.0-linux-aarch64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in"
   "/opt/cmake-3.27.0-linux-aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
   "/opt/cmake-3.27.0-linux-aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"

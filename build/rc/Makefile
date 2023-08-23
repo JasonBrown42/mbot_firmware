@@ -57,10 +57,10 @@ RM = /opt/cmake-3.27.0-linux-aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware_ros
+CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/mbot_firmware_ros/build
+CMAKE_BINARY_DIR = /home/jetson/mbot_firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jetson/mbot_firmware_ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware_ros/build/CMakeFiles /home/jetson/mbot_firmware_ros/build/rc//CMakeFiles/progress.marks
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware_ros/build/CMakeFiles 0
+	cd /home/jetson/mbot_firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware/build/CMakeFiles /home/jetson/mbot_firmware/build/rc//CMakeFiles/progress.marks
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/clean
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/preinstall
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/preinstall
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jetson/mbot_firmware_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jetson/mbot_firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rc/CMakeFiles/rclib.dir/rule:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/CMakeFiles/rclib.dir/rule
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rc/CMakeFiles/rclib.dir/rule
 .PHONY : rc/CMakeFiles/rclib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ rclib: rc/CMakeFiles/rclib.dir/rule
 
 # fast build rule for target.
 rclib/fast:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/build
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/build
 .PHONY : rclib/fast
 
 __/lib/pico-sdk/src/common/pico_sync/critical_section.obj: __/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -135,7 +135,7 @@ __/lib/pico-sdk/src/common/pico_sync/critical_section.obj: __/lib/pico-sdk/src/c
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 __/lib/pico-sdk/src/common/pico_sync/critical_section.i: __/lib/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -143,7 +143,7 @@ __/lib/pico-sdk/src/common/pico_sync/critical_section.i: __/lib/pico-sdk/src/com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 __/lib/pico-sdk/src/common/pico_sync/critical_section.s: __/lib/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -151,7 +151,7 @@ __/lib/pico-sdk/src/common/pico_sync/critical_section.s: __/lib/pico-sdk/src/com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 __/lib/pico-sdk/src/common/pico_sync/lock_core.obj: __/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -159,7 +159,7 @@ __/lib/pico-sdk/src/common/pico_sync/lock_core.obj: __/lib/pico-sdk/src/common/p
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 __/lib/pico-sdk/src/common/pico_sync/lock_core.i: __/lib/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -167,7 +167,7 @@ __/lib/pico-sdk/src/common/pico_sync/lock_core.i: __/lib/pico-sdk/src/common/pic
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 __/lib/pico-sdk/src/common/pico_sync/lock_core.s: __/lib/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -175,7 +175,7 @@ __/lib/pico-sdk/src/common/pico_sync/lock_core.s: __/lib/pico-sdk/src/common/pic
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 __/lib/pico-sdk/src/common/pico_sync/mutex.obj: __/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -183,7 +183,7 @@ __/lib/pico-sdk/src/common/pico_sync/mutex.obj: __/lib/pico-sdk/src/common/pico_
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 __/lib/pico-sdk/src/common/pico_sync/mutex.i: __/lib/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -191,7 +191,7 @@ __/lib/pico-sdk/src/common/pico_sync/mutex.i: __/lib/pico-sdk/src/common/pico_sy
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/mutex.c.i
 
 __/lib/pico-sdk/src/common/pico_sync/mutex.s: __/lib/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -199,7 +199,7 @@ __/lib/pico-sdk/src/common/pico_sync/mutex.s: __/lib/pico-sdk/src/common/pico_sy
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/mutex.c.s
 
 __/lib/pico-sdk/src/common/pico_sync/sem.obj: __/lib/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -207,7 +207,7 @@ __/lib/pico-sdk/src/common/pico_sync/sem.obj: __/lib/pico-sdk/src/common/pico_sy
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/sem.c.obj
 
 __/lib/pico-sdk/src/common/pico_sync/sem.i: __/lib/pico-sdk/src/common/pico_sync/sem.c.i
@@ -215,7 +215,7 @@ __/lib/pico-sdk/src/common/pico_sync/sem.i: __/lib/pico-sdk/src/common/pico_sync
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/sem.c.i
 
 __/lib/pico-sdk/src/common/pico_sync/sem.s: __/lib/pico-sdk/src/common/pico_sync/sem.c.s
@@ -223,7 +223,7 @@ __/lib/pico-sdk/src/common/pico_sync/sem.s: __/lib/pico-sdk/src/common/pico_sync
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_sync/sem.c.s
 
 __/lib/pico-sdk/src/common/pico_time/time.obj: __/lib/pico-sdk/src/common/pico_time/time.c.obj
@@ -231,7 +231,7 @@ __/lib/pico-sdk/src/common/pico_time/time.obj: __/lib/pico-sdk/src/common/pico_t
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_time/time.c.obj
 
 __/lib/pico-sdk/src/common/pico_time/time.i: __/lib/pico-sdk/src/common/pico_time/time.c.i
@@ -239,7 +239,7 @@ __/lib/pico-sdk/src/common/pico_time/time.i: __/lib/pico-sdk/src/common/pico_tim
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_time/time.c.i
 
 __/lib/pico-sdk/src/common/pico_time/time.s: __/lib/pico-sdk/src/common/pico_time/time.c.s
@@ -247,7 +247,7 @@ __/lib/pico-sdk/src/common/pico_time/time.s: __/lib/pico-sdk/src/common/pico_tim
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_time/time.c.s
 
 __/lib/pico-sdk/src/common/pico_time/timeout_helper.obj: __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -255,7 +255,7 @@ __/lib/pico-sdk/src/common/pico_time/timeout_helper.obj: __/lib/pico-sdk/src/com
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 __/lib/pico-sdk/src/common/pico_time/timeout_helper.i: __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -263,7 +263,7 @@ __/lib/pico-sdk/src/common/pico_time/timeout_helper.i: __/lib/pico-sdk/src/commo
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 __/lib/pico-sdk/src/common/pico_time/timeout_helper.s: __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -271,7 +271,7 @@ __/lib/pico-sdk/src/common/pico_time/timeout_helper.s: __/lib/pico-sdk/src/commo
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 __/lib/pico-sdk/src/common/pico_util/datetime.obj: __/lib/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -279,7 +279,7 @@ __/lib/pico-sdk/src/common/pico_util/datetime.obj: __/lib/pico-sdk/src/common/pi
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_util/datetime.c.obj
 
 __/lib/pico-sdk/src/common/pico_util/datetime.i: __/lib/pico-sdk/src/common/pico_util/datetime.c.i
@@ -287,7 +287,7 @@ __/lib/pico-sdk/src/common/pico_util/datetime.i: __/lib/pico-sdk/src/common/pico
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_util/datetime.c.i
 
 __/lib/pico-sdk/src/common/pico_util/datetime.s: __/lib/pico-sdk/src/common/pico_util/datetime.c.s
@@ -295,7 +295,7 @@ __/lib/pico-sdk/src/common/pico_util/datetime.s: __/lib/pico-sdk/src/common/pico
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_util/datetime.c.s
 
 __/lib/pico-sdk/src/common/pico_util/pheap.obj: __/lib/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -303,7 +303,7 @@ __/lib/pico-sdk/src/common/pico_util/pheap.obj: __/lib/pico-sdk/src/common/pico_
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_util/pheap.c.obj
 
 __/lib/pico-sdk/src/common/pico_util/pheap.i: __/lib/pico-sdk/src/common/pico_util/pheap.c.i
@@ -311,7 +311,7 @@ __/lib/pico-sdk/src/common/pico_util/pheap.i: __/lib/pico-sdk/src/common/pico_ut
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_util/pheap.c.i
 
 __/lib/pico-sdk/src/common/pico_util/pheap.s: __/lib/pico-sdk/src/common/pico_util/pheap.c.s
@@ -319,7 +319,7 @@ __/lib/pico-sdk/src/common/pico_util/pheap.s: __/lib/pico-sdk/src/common/pico_ut
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_util/pheap.c.s
 
 __/lib/pico-sdk/src/common/pico_util/queue.obj: __/lib/pico-sdk/src/common/pico_util/queue.c.obj
@@ -327,7 +327,7 @@ __/lib/pico-sdk/src/common/pico_util/queue.obj: __/lib/pico-sdk/src/common/pico_
 
 # target to build an object file
 __/lib/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : __/lib/pico-sdk/src/common/pico_util/queue.c.obj
 
 __/lib/pico-sdk/src/common/pico_util/queue.i: __/lib/pico-sdk/src/common/pico_util/queue.c.i
@@ -335,7 +335,7 @@ __/lib/pico-sdk/src/common/pico_util/queue.i: __/lib/pico-sdk/src/common/pico_ut
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : __/lib/pico-sdk/src/common/pico_util/queue.c.i
 
 __/lib/pico-sdk/src/common/pico_util/queue.s: __/lib/pico-sdk/src/common/pico_util/queue.c.s
@@ -343,7 +343,7 @@ __/lib/pico-sdk/src/common/pico_util/queue.s: __/lib/pico-sdk/src/common/pico_ut
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : __/lib/pico-sdk/src/common/pico_util/queue.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.obj: __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
@@ -351,7 +351,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.obj: __/lib/pico-sdk/src/rp2_com
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.i: __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -359,7 +359,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.i: __/lib/pico-sdk/src/rp2_commo
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.s: __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -367,7 +367,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.s: __/lib/pico-sdk/src/rp2_commo
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.obj: __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -375,7 +375,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.obj: __/lib/pico-sdk/src/rp2
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.i: __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -383,7 +383,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.i: __/lib/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.s: __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -391,7 +391,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.s: __/lib/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -399,7 +399,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: __/lib/pico-sdk/src/r
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -407,7 +407,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: __/lib/pico-sdk/src/rp2
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -415,7 +415,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: __/lib/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_divider/divider.obj: __/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -423,7 +423,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_divider/divider.obj: __/lib/pico-sdk/src
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.obj: __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -431,7 +431,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.obj: __/lib/pico-sdk/src/rp2
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.i: __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -439,7 +439,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.i: __/lib/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.s: __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -447,7 +447,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.s: __/lib/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -455,7 +455,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: __/lib/pico-sdk/src/rp2_c
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -463,7 +463,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: __/lib/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -471,7 +471,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: __/lib/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -479,7 +479,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: __/lib/pico-sdk/src/rp2_com
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -487,7 +487,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: __/lib/pico-sdk/src/rp2_commo
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -495,7 +495,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: __/lib/pico-sdk/src/rp2_commo
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.obj: __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -503,7 +503,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.obj: __/lib/pico-sdk/src/rp2_com
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.i: __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -511,7 +511,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.i: __/lib/pico-sdk/src/rp2_commo
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.s: __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -519,7 +519,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.s: __/lib/pico-sdk/src/rp2_commo
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: __/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -527,7 +527,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: __/lib/pico-s
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.obj: __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -535,7 +535,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.obj: __/lib/pico-sdk/src/rp2_com
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.i: __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -543,7 +543,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.i: __/lib/pico-sdk/src/rp2_commo
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.s: __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -551,7 +551,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.s: __/lib/pico-sdk/src/rp2_commo
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.obj: __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -559,7 +559,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.obj: __/lib/pico-sdk/src/rp2_com
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.i: __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -567,7 +567,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.i: __/lib/pico-sdk/src/rp2_commo
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.s: __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -575,7 +575,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.s: __/lib/pico-sdk/src/rp2_commo
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.obj: __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -583,7 +583,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.obj: __/lib/pico-sdk/src/rp2_c
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.i: __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -591,7 +591,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.i: __/lib/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.s: __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -599,7 +599,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.s: __/lib/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.obj: __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -607,7 +607,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.obj: __/lib/pico-sdk/src/rp2
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.i: __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -615,7 +615,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.i: __/lib/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.s: __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -623,7 +623,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.s: __/lib/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.obj: __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -631,7 +631,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.obj: __/lib/pico-sdk/src/rp2_c
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.i: __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -639,7 +639,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.i: __/lib/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.s: __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -647,7 +647,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.s: __/lib/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -655,7 +655,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: __/lib/pico-sdk/src/rp2_c
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -663,7 +663,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: __/lib/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -671,7 +671,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: __/lib/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -679,7 +679,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: __/lib/pico-sdk/s
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -687,7 +687,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: __/lib/pico-sdk/src
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -695,7 +695,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: __/lib/pico-sdk/src
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -703,7 +703,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: __/lib/pico-sdk/src/rp2_c
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -711,7 +711,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: __/lib/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -719,7 +719,7 @@ __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: __/lib/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: __/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -727,7 +727,7 @@ __/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: __/lib/pico-sdk/s
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -735,7 +735,7 @@ __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: __/lib/pico-sdk/src/rp2
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -743,7 +743,7 @@ __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: __/lib/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -751,7 +751,7 @@ __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: __/lib/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_divider/divider.obj: __/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -759,7 +759,7 @@ __/lib/pico-sdk/src/rp2_common/pico_divider/divider.obj: __/lib/pico-sdk/src/rp2
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: __/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -767,7 +767,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: __/lib/pico-sdk/src
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -775,7 +775,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: __/lib/pico-sdk/
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -783,7 +783,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: __/lib/pico-sdk/sr
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -791,7 +791,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: __/lib/pico-sdk/sr
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_math.obj: __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -799,7 +799,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_math.obj: __/lib/pico-sdk/src/
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_math.i: __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -807,7 +807,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_math.i: __/lib/pico-sdk/src/rp
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_math.s: __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -815,7 +815,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_math.s: __/lib/pico-sdk/src/rp
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: __/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -823,7 +823,7 @@ __/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: __/lib/pico-s
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: __/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -831,7 +831,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: __/lib/pico-sdk/src/r
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -839,7 +839,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: __/lib/pico-sdk/sr
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -847,7 +847,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: __/lib/pico-sdk/src/
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -855,7 +855,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: __/lib/pico-sdk/src/
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_math.obj: __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -863,7 +863,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_math.obj: __/lib/pico-sdk/src/rp
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_math.i: __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -871,7 +871,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_math.i: __/lib/pico-sdk/src/rp2_
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_math.s: __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -879,7 +879,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_math.s: __/lib/pico-sdk/src/rp2_
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: __/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -887,7 +887,7 @@ __/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: __/lib/pico-sdk
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: __/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -895,7 +895,7 @@ __/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: __/lib/p
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -903,7 +903,7 @@ __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: __/lib/pico-sdk/src/
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -911,7 +911,7 @@ __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: __/lib/pico-sdk/src/rp
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -919,7 +919,7 @@ __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: __/lib/pico-sdk/src/rp
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: __/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -927,7 +927,7 @@ __/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: __/lib/pico-sdk/s
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
@@ -935,7 +935,7 @@ __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: __/lib/pico-sdk/src
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.i: __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
@@ -943,7 +943,7 @@ __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.i: __/lib/pico-sdk/src/r
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.s: __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
@@ -951,7 +951,7 @@ __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.s: __/lib/pico-sdk/src/r
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_platform/platform.obj: __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -959,7 +959,7 @@ __/lib/pico-sdk/src/rp2_common/pico_platform/platform.obj: __/lib/pico-sdk/src/r
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_platform/platform.i: __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -967,7 +967,7 @@ __/lib/pico-sdk/src/rp2_common/pico_platform/platform.i: __/lib/pico-sdk/src/rp2
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_platform/platform.s: __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -975,7 +975,7 @@ __/lib/pico-sdk/src/rp2_common/pico_platform/platform.s: __/lib/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_printf/printf.obj: __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -983,7 +983,7 @@ __/lib/pico-sdk/src/rp2_common/pico_printf/printf.obj: __/lib/pico-sdk/src/rp2_c
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_printf/printf.i: __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -991,7 +991,7 @@ __/lib/pico-sdk/src/rp2_common/pico_printf/printf.i: __/lib/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_printf/printf.s: __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -999,7 +999,7 @@ __/lib/pico-sdk/src/rp2_common/pico_printf/printf.s: __/lib/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1007,7 +1007,7 @@ __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: __/lib/pico-sdk/src/rp2
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.i: __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1015,7 +1015,7 @@ __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.i: __/lib/pico-sdk/src/rp2_c
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.s: __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1023,7 +1023,7 @@ __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.s: __/lib/pico-sdk/src/rp2_c
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1031,7 +1031,7 @@ __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: __/lib/pico-s
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1039,7 +1039,7 @@ __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: __/lib/pico-sdk
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1047,7 +1047,7 @@ __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: __/lib/pico-sdk
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: __/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1055,7 +1055,7 @@ __/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: __/lib/pico-sdk/src/
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1063,7 +1063,7 @@ __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: __/lib/pico-sd
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1071,7 +1071,7 @@ __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: __/lib/pico-sdk/
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1079,7 +1079,7 @@ __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: __/lib/pico-sdk/
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1087,7 +1087,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: __/lib/pico-sdk/src/rp2_com
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.i: __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1095,7 +1095,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.i: __/lib/pico-sdk/src/rp2_commo
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.s: __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1103,7 +1103,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.s: __/lib/pico-sdk/src/rp2_commo
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1111,7 +1111,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: __/lib/pico-sdk/s
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1119,7 +1119,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: __/lib/pico-sdk/src
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1127,7 +1127,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: __/lib/pico-sdk/src
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1135,7 +1135,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: __/lib/pico-sdk/src/rp2_c
 
 # target to build an object file
 __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1143,7 +1143,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: __/lib/pico-sdk/src/rp2_com
 
 # target to preprocess a source file
 __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1151,7 +1151,7 @@ __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: __/lib/pico-sdk/src/rp2_com
 
 # target to generate assembly for a file
 __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/__/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : __/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 src/math/algebra.obj: src/math/algebra.c.obj
@@ -1159,7 +1159,7 @@ src/math/algebra.obj: src/math/algebra.c.obj
 
 # target to build an object file
 src/math/algebra.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj
 .PHONY : src/math/algebra.c.obj
 
 src/math/algebra.i: src/math/algebra.c.i
@@ -1167,7 +1167,7 @@ src/math/algebra.i: src/math/algebra.c.i
 
 # target to preprocess a source file
 src/math/algebra.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra.c.i
 .PHONY : src/math/algebra.c.i
 
 src/math/algebra.s: src/math/algebra.c.s
@@ -1175,7 +1175,7 @@ src/math/algebra.s: src/math/algebra.c.s
 
 # target to generate assembly for a file
 src/math/algebra.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra.c.s
 .PHONY : src/math/algebra.c.s
 
 src/math/algebra_common.obj: src/math/algebra_common.c.obj
@@ -1183,7 +1183,7 @@ src/math/algebra_common.obj: src/math/algebra_common.c.obj
 
 # target to build an object file
 src/math/algebra_common.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.obj
 .PHONY : src/math/algebra_common.c.obj
 
 src/math/algebra_common.i: src/math/algebra_common.c.i
@@ -1191,7 +1191,7 @@ src/math/algebra_common.i: src/math/algebra_common.c.i
 
 # target to preprocess a source file
 src/math/algebra_common.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.i
 .PHONY : src/math/algebra_common.c.i
 
 src/math/algebra_common.s: src/math/algebra_common.c.s
@@ -1199,7 +1199,7 @@ src/math/algebra_common.s: src/math/algebra_common.c.s
 
 # target to generate assembly for a file
 src/math/algebra_common.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/algebra_common.c.s
 .PHONY : src/math/algebra_common.c.s
 
 src/math/filter.obj: src/math/filter.c.obj
@@ -1207,7 +1207,7 @@ src/math/filter.obj: src/math/filter.c.obj
 
 # target to build an object file
 src/math/filter.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/filter.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/filter.c.obj
 .PHONY : src/math/filter.c.obj
 
 src/math/filter.i: src/math/filter.c.i
@@ -1215,7 +1215,7 @@ src/math/filter.i: src/math/filter.c.i
 
 # target to preprocess a source file
 src/math/filter.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/filter.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/filter.c.i
 .PHONY : src/math/filter.c.i
 
 src/math/filter.s: src/math/filter.c.s
@@ -1223,7 +1223,7 @@ src/math/filter.s: src/math/filter.c.s
 
 # target to generate assembly for a file
 src/math/filter.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/filter.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/filter.c.s
 .PHONY : src/math/filter.c.s
 
 src/math/kalman.obj: src/math/kalman.c.obj
@@ -1231,7 +1231,7 @@ src/math/kalman.obj: src/math/kalman.c.obj
 
 # target to build an object file
 src/math/kalman.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/kalman.c.obj
 .PHONY : src/math/kalman.c.obj
 
 src/math/kalman.i: src/math/kalman.c.i
@@ -1239,7 +1239,7 @@ src/math/kalman.i: src/math/kalman.c.i
 
 # target to preprocess a source file
 src/math/kalman.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/kalman.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/kalman.c.i
 .PHONY : src/math/kalman.c.i
 
 src/math/kalman.s: src/math/kalman.c.s
@@ -1247,7 +1247,7 @@ src/math/kalman.s: src/math/kalman.c.s
 
 # target to generate assembly for a file
 src/math/kalman.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/kalman.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/kalman.c.s
 .PHONY : src/math/kalman.c.s
 
 src/math/matrix.obj: src/math/matrix.c.obj
@@ -1255,7 +1255,7 @@ src/math/matrix.obj: src/math/matrix.c.obj
 
 # target to build an object file
 src/math/matrix.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/matrix.c.obj
 .PHONY : src/math/matrix.c.obj
 
 src/math/matrix.i: src/math/matrix.c.i
@@ -1263,7 +1263,7 @@ src/math/matrix.i: src/math/matrix.c.i
 
 # target to preprocess a source file
 src/math/matrix.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/matrix.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/matrix.c.i
 .PHONY : src/math/matrix.c.i
 
 src/math/matrix.s: src/math/matrix.c.s
@@ -1271,7 +1271,7 @@ src/math/matrix.s: src/math/matrix.c.s
 
 # target to generate assembly for a file
 src/math/matrix.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/matrix.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/matrix.c.s
 .PHONY : src/math/matrix.c.s
 
 src/math/other.obj: src/math/other.c.obj
@@ -1279,7 +1279,7 @@ src/math/other.obj: src/math/other.c.obj
 
 # target to build an object file
 src/math/other.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/other.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/other.c.obj
 .PHONY : src/math/other.c.obj
 
 src/math/other.i: src/math/other.c.i
@@ -1287,7 +1287,7 @@ src/math/other.i: src/math/other.c.i
 
 # target to preprocess a source file
 src/math/other.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/other.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/other.c.i
 .PHONY : src/math/other.c.i
 
 src/math/other.s: src/math/other.c.s
@@ -1295,7 +1295,7 @@ src/math/other.s: src/math/other.c.s
 
 # target to generate assembly for a file
 src/math/other.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/other.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/other.c.s
 .PHONY : src/math/other.c.s
 
 src/math/polynomial.obj: src/math/polynomial.c.obj
@@ -1303,7 +1303,7 @@ src/math/polynomial.obj: src/math/polynomial.c.obj
 
 # target to build an object file
 src/math/polynomial.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj
 .PHONY : src/math/polynomial.c.obj
 
 src/math/polynomial.i: src/math/polynomial.c.i
@@ -1311,7 +1311,7 @@ src/math/polynomial.i: src/math/polynomial.c.i
 
 # target to preprocess a source file
 src/math/polynomial.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/polynomial.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/polynomial.c.i
 .PHONY : src/math/polynomial.c.i
 
 src/math/polynomial.s: src/math/polynomial.c.s
@@ -1319,7 +1319,7 @@ src/math/polynomial.s: src/math/polynomial.c.s
 
 # target to generate assembly for a file
 src/math/polynomial.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/polynomial.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/polynomial.c.s
 .PHONY : src/math/polynomial.c.s
 
 src/math/quaternion.obj: src/math/quaternion.c.obj
@@ -1327,7 +1327,7 @@ src/math/quaternion.obj: src/math/quaternion.c.obj
 
 # target to build an object file
 src/math/quaternion.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/quaternion.c.obj
 .PHONY : src/math/quaternion.c.obj
 
 src/math/quaternion.i: src/math/quaternion.c.i
@@ -1335,7 +1335,7 @@ src/math/quaternion.i: src/math/quaternion.c.i
 
 # target to preprocess a source file
 src/math/quaternion.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/quaternion.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/quaternion.c.i
 .PHONY : src/math/quaternion.c.i
 
 src/math/quaternion.s: src/math/quaternion.c.s
@@ -1343,7 +1343,7 @@ src/math/quaternion.s: src/math/quaternion.c.s
 
 # target to generate assembly for a file
 src/math/quaternion.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/quaternion.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/quaternion.c.s
 .PHONY : src/math/quaternion.c.s
 
 src/math/ring_buffer.obj: src/math/ring_buffer.c.obj
@@ -1351,7 +1351,7 @@ src/math/ring_buffer.obj: src/math/ring_buffer.c.obj
 
 # target to build an object file
 src/math/ring_buffer.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.obj
 .PHONY : src/math/ring_buffer.c.obj
 
 src/math/ring_buffer.i: src/math/ring_buffer.c.i
@@ -1359,7 +1359,7 @@ src/math/ring_buffer.i: src/math/ring_buffer.c.i
 
 # target to preprocess a source file
 src/math/ring_buffer.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.i
 .PHONY : src/math/ring_buffer.c.i
 
 src/math/ring_buffer.s: src/math/ring_buffer.c.s
@@ -1367,7 +1367,7 @@ src/math/ring_buffer.s: src/math/ring_buffer.c.s
 
 # target to generate assembly for a file
 src/math/ring_buffer.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/ring_buffer.c.s
 .PHONY : src/math/ring_buffer.c.s
 
 src/math/vector.obj: src/math/vector.c.obj
@@ -1375,7 +1375,7 @@ src/math/vector.obj: src/math/vector.c.obj
 
 # target to build an object file
 src/math/vector.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/vector.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/vector.c.obj
 .PHONY : src/math/vector.c.obj
 
 src/math/vector.i: src/math/vector.c.i
@@ -1383,7 +1383,7 @@ src/math/vector.i: src/math/vector.c.i
 
 # target to preprocess a source file
 src/math/vector.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/vector.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/vector.c.i
 .PHONY : src/math/vector.c.i
 
 src/math/vector.s: src/math/vector.c.s
@@ -1391,7 +1391,7 @@ src/math/vector.s: src/math/vector.c.s
 
 # target to generate assembly for a file
 src/math/vector.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/vector.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/math/vector.c.s
 .PHONY : src/math/vector.c.s
 
 src/mpu/mpu.obj: src/mpu/mpu.c.obj
@@ -1399,7 +1399,7 @@ src/mpu/mpu.obj: src/mpu/mpu.c.obj
 
 # target to build an object file
 src/mpu/mpu.c.obj:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.obj
 .PHONY : src/mpu/mpu.c.obj
 
 src/mpu/mpu.i: src/mpu/mpu.c.i
@@ -1407,7 +1407,7 @@ src/mpu/mpu.i: src/mpu/mpu.c.i
 
 # target to preprocess a source file
 src/mpu/mpu.c.i:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.i
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.i
 .PHONY : src/mpu/mpu.c.i
 
 src/mpu/mpu.s: src/mpu/mpu.c.s
@@ -1415,7 +1415,7 @@ src/mpu/mpu.s: src/mpu/mpu.c.s
 
 # target to generate assembly for a file
 src/mpu/mpu.c.s:
-	cd /home/jetson/mbot_firmware_ros/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.s
+	cd /home/jetson/mbot_firmware/build && $(MAKE) $(MAKESILENT) -f rc/CMakeFiles/rclib.dir/build.make rc/CMakeFiles/rclib.dir/src/mpu/mpu.c.s
 .PHONY : src/mpu/mpu.c.s
 
 # Help Target
@@ -1599,6 +1599,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jetson/mbot_firmware_ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jetson/mbot_firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /opt/cmake-3.27.0-linux-aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware_ros
+CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/mbot_firmware_ros/build
+CMAKE_BINARY_DIR = /home/jetson/mbot_firmware/build
 
 # Utility rule file for mbotlib_quadrature_encoder_pio_h.
 
@@ -68,9 +68,9 @@ include mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/progress.make
 
 mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h: mbot/quadrature_encoder.pio.h
 
-mbot/quadrature_encoder.pio.h: /home/jetson/mbot_firmware_ros/mbot/include/mbot/encoder/quadrature_encoder.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating quadrature_encoder.pio.h"
-	cd /home/jetson/mbot_firmware_ros/build/mbot && ../pioasm/pioasm -o c-sdk /home/jetson/mbot_firmware_ros/mbot/include/mbot/encoder/quadrature_encoder.pio /home/jetson/mbot_firmware_ros/build/mbot/quadrature_encoder.pio.h
+mbot/quadrature_encoder.pio.h: /home/jetson/mbot_firmware/mbot/include/mbot/encoder/quadrature_encoder.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating quadrature_encoder.pio.h"
+	cd /home/jetson/mbot_firmware/build/mbot && ../pioasm/pioasm -o c-sdk /home/jetson/mbot_firmware/mbot/include/mbot/encoder/quadrature_encoder.pio /home/jetson/mbot_firmware/build/mbot/quadrature_encoder.pio.h
 
 mbotlib_quadrature_encoder_pio_h: mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h
 mbotlib_quadrature_encoder_pio_h: mbot/quadrature_encoder.pio.h
@@ -82,10 +82,10 @@ mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/build: mbotlib_quadrature_e
 .PHONY : mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/build
 
 mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/clean:
-	cd /home/jetson/mbot_firmware_ros/build/mbot && $(CMAKE_COMMAND) -P CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/cmake_clean.cmake
+	cd /home/jetson/mbot_firmware/build/mbot && $(CMAKE_COMMAND) -P CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/cmake_clean.cmake
 .PHONY : mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/clean
 
 mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/depend:
-	cd /home/jetson/mbot_firmware_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/mbot_firmware_ros /home/jetson/mbot_firmware_ros/mbot /home/jetson/mbot_firmware_ros/build /home/jetson/mbot_firmware_ros/build/mbot /home/jetson/mbot_firmware_ros/build/mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jetson/mbot_firmware/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/mbot_firmware /home/jetson/mbot_firmware/mbot /home/jetson/mbot_firmware/build /home/jetson/mbot_firmware/build/mbot /home/jetson/mbot_firmware/build/mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : mbot/CMakeFiles/mbotlib_quadrature_encoder_pio_h.dir/depend
 

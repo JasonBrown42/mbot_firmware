@@ -53,10 +53,10 @@ RM = /opt/cmake-3.27.0-linux-aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware_ros
+CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/mbot_firmware_ros/build
+CMAKE_BINARY_DIR = /home/jetson/mbot_firmware/build
 
 # Utility rule file for cyw43_firmware_package.
 
@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.d
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
 
-pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o: /home/jetson/mbot_firmware_ros/lib/pico-sdk/lib/cyw43-driver/firmware/43439A0-7.95.49.00.combined
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jetson/mbot_firmware_ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_resource.o"
-	cd /home/jetson/mbot_firmware_ros/lib/pico-sdk/lib/cyw43-driver/firmware && /usr/bin/arm-none-eabi-objcopy -I binary -O elf32-littlearm -B arm --readonly-text --rename-section .data=.big_const,contents,alloc,load,readonly,data --redefine-sym _binary_43439A0_7_95_49_00_combined_start=fw_43439A0_7_95_49_00_start --redefine-sym _binary_43439A0_7_95_49_00_combined_end=fw_43439A0_7_95_49_00_end --redefine-sym _binary_43439A0_7_95_49_00_combined_size=fw_43439A0_7_95_49_00_size 43439A0-7.95.49.00.combined /home/jetson/mbot_firmware_ros/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
+pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o: /home/jetson/mbot_firmware/lib/pico-sdk/lib/cyw43-driver/firmware/43439A0-7.95.49.00.combined
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jetson/mbot_firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_resource.o"
+	cd /home/jetson/mbot_firmware/lib/pico-sdk/lib/cyw43-driver/firmware && /usr/bin/arm-none-eabi-objcopy -I binary -O elf32-littlearm -B arm --readonly-text --rename-section .data=.big_const,contents,alloc,load,readonly,data --redefine-sym _binary_43439A0_7_95_49_00_combined_start=fw_43439A0_7_95_49_00_start --redefine-sym _binary_43439A0_7_95_49_00_combined_end=fw_43439A0_7_95_49_00_end --redefine-sym _binary_43439A0_7_95_49_00_combined_size=fw_43439A0_7_95_49_00_size 43439A0-7.95.49.00.combined /home/jetson/mbot_firmware/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
 
 cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package
 cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/clean:
-	cd /home/jetson/mbot_firmware_ros/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_firmware_package.dir/cmake_clean.cmake
+	cd /home/jetson/mbot_firmware/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_firmware_package.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/depend:
-	cd /home/jetson/mbot_firmware_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/mbot_firmware_ros /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/cyw43_driver /home/jetson/mbot_firmware_ros/build /home/jetson/mbot_firmware_ros/build/pico-sdk/src/rp2_common/cyw43_driver /home/jetson/mbot_firmware_ros/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jetson/mbot_firmware/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/mbot_firmware /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/cyw43_driver /home/jetson/mbot_firmware/build /home/jetson/mbot_firmware/build/pico-sdk/src/rp2_common/cyw43_driver /home/jetson/mbot_firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/depend
 

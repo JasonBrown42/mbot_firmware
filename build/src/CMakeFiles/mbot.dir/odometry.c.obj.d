@@ -1,7 +1,7 @@
 src/CMakeFiles/mbot.dir/odometry.c.obj: \
- /home/jetson/mbot_firmware_ros/src/odometry.c \
- /home/jetson/mbot_firmware_ros/src/odometry.h \
- /home/jetson/mbot_firmware_ros/mbot/include/mbot/defs/mbot_params.h \
+ /home/jetson/mbot_firmware/src/odometry.c \
+ /home/jetson/mbot_firmware/src/odometry.h \
+ /home/jetson/mbot_firmware/mbot/include/mbot/defs/mbot_params.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/mbot_msg/msg/twist2dt.h \
  /home/jetson/mbot_firmware_ros/libmicroros/include/mbot_msg/msg/detail/twist2dt__struct.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \

@@ -1,5 +1,5 @@
 rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj: \
- /home/jetson/mbot_firmware_ros/rc/src/math/polynomial.c \
+ /home/jetson/mbot_firmware/rc/src/math/polynomial.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -17,6 +17,6 @@ rc/CMakeFiles/rclib.dir/src/math/polynomial.c.obj: \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /usr/include/newlib/math.h \
- /home/jetson/mbot_firmware_ros/rc/include/rc/math/polynomial.h \
- /home/jetson/mbot_firmware_ros/rc/include/rc/math/vector.h \
- /home/jetson/mbot_firmware_ros/rc/src/math/algebra_common.h
+ /home/jetson/mbot_firmware/rc/include/rc/math/polynomial.h \
+ /home/jetson/mbot_firmware/rc/include/rc/math/vector.h \
+ /home/jetson/mbot_firmware/rc/src/math/algebra_common.h

@@ -1,3 +1,3 @@
-/home/jetson/mbot_firmware_ros/build/pioasm/CMakeFiles/pioasm.dir
-/home/jetson/mbot_firmware_ros/build/pioasm/CMakeFiles/edit_cache.dir
-/home/jetson/mbot_firmware_ros/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/jetson/mbot_firmware/build/pioasm/CMakeFiles/pioasm.dir
+/home/jetson/mbot_firmware/build/pioasm/CMakeFiles/edit_cache.dir
+/home/jetson/mbot_firmware/build/pioasm/CMakeFiles/rebuild_cache.dir

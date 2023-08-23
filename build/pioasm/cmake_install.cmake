@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm
+# Install script for directory: /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jetson/mbot_firmware_ros/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jetson/mbot_firmware/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

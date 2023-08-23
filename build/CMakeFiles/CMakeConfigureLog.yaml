@@ -49,7 +49,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /home/jetson/mbot_firmware_ros/build/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o
+        /home/jetson/mbot_firmware/build/CMakeFiles/3.27.0/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -91,7 +91,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /home/jetson/mbot_firmware_ros/build/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o
+        /home/jetson/mbot_firmware/build/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"

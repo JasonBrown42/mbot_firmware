@@ -1,5 +1,5 @@
 
-/home/jetson/mbot_firmware_ros/build/tests/mbot_motor_test.elf:     file format elf32-littlearm
+/home/jetson/mbot_firmware/build/tests/mbot_motor_test.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -52,7 +52,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
  23 .stabstr      000000e3  00000000  00000000  00033270  2**0
                   CONTENTS, READONLY, DEBUGGING
 
-/home/jetson/mbot_firmware_ros/build/tests/mbot_motor_test.elf:     file format elf32-littlearm
+/home/jetson/mbot_firmware/build/tests/mbot_motor_test.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:

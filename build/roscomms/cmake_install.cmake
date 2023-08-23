@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetson/mbot_firmware_ros/roscomms
+# Install script for directory: /home/jetson/mbot_firmware/roscomms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

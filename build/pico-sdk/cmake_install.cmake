@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetson/mbot_firmware_ros/lib/pico-sdk
+# Install script for directory: /home/jetson/mbot_firmware/lib/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jetson/mbot_firmware_ros/build/pico-sdk/tools/cmake_install.cmake")
-  include("/home/jetson/mbot_firmware_ros/build/pico-sdk/src/cmake_install.cmake")
-  include("/home/jetson/mbot_firmware_ros/build/pico-sdk/docs/cmake_install.cmake")
+  include("/home/jetson/mbot_firmware/build/pico-sdk/tools/cmake_install.cmake")
+  include("/home/jetson/mbot_firmware/build/pico-sdk/src/cmake_install.cmake")
+  include("/home/jetson/mbot_firmware/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

@@ -1,5 +1,5 @@
 src/CMakeFiles/mbot.dir/print_tables.c.obj: \
- /home/jetson/mbot_firmware_ros/src/print_tables.c \
+ /home/jetson/mbot_firmware/src/print_tables.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \

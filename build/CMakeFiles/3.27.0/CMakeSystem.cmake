@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "4.9.337-tegra")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "aarch64")
 
-include("/home/jetson/mbot_firmware_ros/lib/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
+include("/home/jetson/mbot_firmware/lib/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

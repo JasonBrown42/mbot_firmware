@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.o: \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/pio_disassembler.cpp \
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/pio_disassembler.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/array \
  /usr/include/c++/9/utility \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
@@ -152,4 +152,4 @@ CMakeFiles/pioasm.dir/pio_disassembler.cpp.o: \
  /usr/include/c++/9/bits/unique_ptr.h /usr/include/c++/9/tuple \
  /usr/include/c++/9/bits/uses_allocator.h \
  /usr/include/c++/9/bits/invoke.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/pio_disassembler.h
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/pio_disassembler.h

@@ -4,8 +4,8 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/home/jetson/mbot_firmware_ros/lib/pico-sdk/src/boards/include/boards/pico.h"
+#include "/home/jetson/mbot_firmware/lib/pico-sdk/src/boards/include/boards/pico.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:
 
-#include "/home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"

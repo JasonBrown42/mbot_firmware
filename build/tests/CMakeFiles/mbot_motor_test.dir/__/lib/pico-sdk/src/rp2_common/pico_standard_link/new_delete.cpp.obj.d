@@ -1,5 +1,5 @@
 tests/CMakeFiles/mbot_motor_test.dir/__/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp \
  /usr/include/newlib/c++/9.2.1/cstdlib \
  /usr/include/newlib/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
  /usr/include/newlib/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \

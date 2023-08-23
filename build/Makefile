@@ -57,10 +57,10 @@ RM = /opt/cmake-3.27.0-linux-aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware_ros
+CMAKE_SOURCE_DIR = /home/jetson/mbot_firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/mbot_firmware_ros/build
+CMAKE_BINARY_DIR = /home/jetson/mbot_firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware_ros/build/CMakeFiles /home/jetson/mbot_firmware_ros/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware/build/CMakeFiles /home/jetson/mbot_firmware/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware_ros/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/mbot_firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -377,6 +377,19 @@ mbot_motor_test/fast:
 .PHONY : mbot_motor_test/fast
 
 #=============================================================================
+# Target rules for targets named mbot_test_drive
+
+# Build rule for target.
+mbot_test_drive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbot_test_drive
+.PHONY : mbot_test_drive
+
+# fast build rule for target.
+mbot_test_drive/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/mbot_test_drive.dir/build.make tests/CMakeFiles/mbot_test_drive.dir/build
+.PHONY : mbot_test_drive/fast
+
+#=============================================================================
 # Target rules for targets named mbot_motor_analyze
 
 # Build rule for target.
@@ -496,6 +509,7 @@ help:
 	@echo "... mbot_imu_test"
 	@echo "... mbot_motor_analyze"
 	@echo "... mbot_motor_test"
+	@echo "... mbot_test_drive"
 	@echo "... mbot_usb_serial_test"
 	@echo "... mbotlib"
 	@echo "... pico_interrupt_test"

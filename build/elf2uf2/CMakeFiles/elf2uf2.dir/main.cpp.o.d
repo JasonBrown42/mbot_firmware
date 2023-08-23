@@ -1,5 +1,5 @@
 CMakeFiles/elf2uf2.dir/main.cpp.o: \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/elf2uf2/main.cpp \
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/elf2uf2/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/cstdio \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h \
@@ -140,6 +140,6 @@ CMakeFiles/elf2uf2.dir/main.cpp.o: \
  /usr/include/c++/9/bits/algorithmfwd.h \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/uniform_int_dist.h /usr/include/c++/9/limits \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/src/common/boot_uf2/include/boot/uf2.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/src/common/boot_uf2/include/boot/uf2.h \
  /usr/include/assert.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/elf2uf2/elf.h
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/elf2uf2/elf.h

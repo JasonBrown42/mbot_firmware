@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/python_output.cpp.o: \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/python_output.cpp \
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/python_output.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/array \
  /usr/include/c++/9/utility \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
@@ -157,7 +157,7 @@ CMakeFiles/pioasm.dir/python_output.cpp.o: \
  /usr/include/c++/9/bits/unique_ptr.h /usr/include/c++/9/tuple \
  /usr/include/c++/9/bits/uses_allocator.h \
  /usr/include/c++/9/bits/invoke.h /usr/include/c++/9/iostream \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/output_format.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/output_format.h \
  /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_uninitialized.h \
  /usr/include/c++/9/bits/stl_vector.h \
  /usr/include/c++/9/bits/stl_bvector.h /usr/include/c++/9/bits/vector.tcc \
@@ -175,4 +175,4 @@ CMakeFiles/pioasm.dir/python_output.cpp.o: \
  /usr/include/c++/9/bits/atomic_base.h \
  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
  /usr/include/c++/9/backward/auto_ptr.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/pio_disassembler.h
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/pio_disassembler.h

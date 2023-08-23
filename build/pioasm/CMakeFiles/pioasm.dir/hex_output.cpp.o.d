@@ -1,7 +1,7 @@
 CMakeFiles/pioasm.dir/hex_output.cpp.o: \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/hex_output.cpp \
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/hex_output.cpp \
  /usr/include/stdc-predef.h \
- /home/jetson/mbot_firmware_ros/lib/pico-sdk/tools/pioasm/output_format.h \
+ /home/jetson/mbot_firmware/lib/pico-sdk/tools/pioasm/output_format.h \
  /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h \

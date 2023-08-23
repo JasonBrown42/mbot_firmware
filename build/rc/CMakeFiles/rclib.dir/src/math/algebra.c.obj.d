@@ -1,5 +1,5 @@
 rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj: \
- /home/jetson/mbot_firmware_ros/rc/src/math/algebra.c \
+ /home/jetson/mbot_firmware/rc/src/math/algebra.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -20,7 +20,7 @@ rc/CMakeFiles/rclib.dir/src/math/algebra.c.obj: \
  /usr/include/newlib/alloca.h /usr/include/newlib/math.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
- /home/jetson/mbot_firmware_ros/rc/include/rc/math/vector.h \
- /home/jetson/mbot_firmware_ros/rc/include/rc/math/matrix.h \
- /home/jetson/mbot_firmware_ros/rc/include/rc/math/algebra.h \
- /home/jetson/mbot_firmware_ros/rc/src/math/algebra_common.h
+ /home/jetson/mbot_firmware/rc/include/rc/math/vector.h \
+ /home/jetson/mbot_firmware/rc/include/rc/math/matrix.h \
+ /home/jetson/mbot_firmware/rc/include/rc/math/algebra.h \
+ /home/jetson/mbot_firmware/rc/src/math/algebra_common.h
