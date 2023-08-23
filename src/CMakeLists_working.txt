@@ -1,0 +1,51 @@
+#MBOT
+
+link_directories($ENV{LIB_UROS})
+
+add_executable(mbot
+  # mbot.c
+  #pico_micro_ros_example.c
+  #pico_micro_ros_subscriber_example.c
+  #pico_micro_ros_time_delay_test.c
+  pico_micro_ros_latency.c
+  pico_uart_transport.c
+  odometry.c
+  print_tables.c
+  
+)
+
+include_directories(/usr/local/include)
+
+target_include_directories(mbot PUBLIC
+  $ENV{LIB_UROS}/include
+)
+
+target_link_libraries(mbot
+  pico_stdlib
+  pico_multicore
+  pico_time
+  hardware_pwm
+  hardware_sync
+  hardware_i2c
+  hardware_flash
+  mbotlib
+  rclib
+  comms
+  microros
+)
+
+# Need to set libmicroros as environment variable LIB_UROS beforehand
+
+
+
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ffunction-sections -fdata-sections")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -ffunction-sections -fdata-sections")
+
+pico_enable_stdio_usb(mbot 1)
+pico_enable_stdio_uart(mbot 0)
+
+add_compile_definitions(PICO_UART_ENABLE_CRLF_SUPPORT=0)
+add_compile_definitions(PICO_STDIO_ENABLE_CRLF_SUPPORT=0)
+add_compile_definitions(PICO_STDIO_DEFAULT_CRLF=0)
+
+pico_add_extra_outputs(mbot)

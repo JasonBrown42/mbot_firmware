@@ -1,0 +1,22 @@
+[34.875s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/jetson/mbot_firmware_ros']
+[34.876s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/jetson/mbot_firmware_ros'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f83e466d0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f83e466d0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f83d4c310>)
+[35.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[35.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[35.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[35.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[35.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[35.381s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/mbot_firmware_ros'
+[35.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extensions ['ignore', 'ignore_ament_install']
+[35.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extension 'ignore'
+[35.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extension 'ignore_ament_install'
+[35.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extensions ['colcon_pkg']
+[35.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extension 'colcon_pkg'
+[35.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extensions ['colcon_meta']
+[35.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extension 'colcon_meta'
+[35.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extensions ['ros']
+[35.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extension 'ros'
+[35.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extensions ['cmake', 'python']
+[35.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extension 'cmake'
+[37.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetson/mbot_firmware_ros) by extension 'python'
+[37.070s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jetson/mbot_firmware_ros' with type 'cmake' and name 'mbot_pico'
+[37.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
